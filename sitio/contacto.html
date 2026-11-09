@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto | Silvana Escamilla - Diseñadora web</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="encabezado">
+    <img id="logo" src="img/logo.jpg" alt="Logotipo con las letras S y E entrelazadas en verde y dorado">
+    <nav>
+      <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="sobre-mi.html">Sobre mí</a></li>
+        <li><a href="servicios.html">Servicios</a></li>
+        <li><a href="portafolio.html">Portafolio</a></li>
+        <li><a href="contacto.html" class="activo">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1>Contacto</h1>
+    <section class="dos-col contacto">
+      <div>
+        <img src="img/mapa.jpg" alt="Mapa de Google Maps con mi ubicación aproximada">
+        <h2>Mapa de ubicación</h2>
+        <ul class="datos">
+          <li>
+            <img src="img/ubicacion.png" alt="Icono de ubicación" width="20" height="20">
+            Dirección: Lázaro Cárdenas, calle Michohacan, Xochitepec,Morelos
+          </li>
+          <li>
+            <img src="img/correo.png" alt="Icono de correo electrónico" width="20" height="20">
+            Correo: <a href="20253ds102@utez.edu.mx">20253ds102@utez.edu.mx</a>
+          </li>
+          <li>
+            <img src="img/telefono.png" alt="Icono de teléfono" width="20" height="20">
+            Teléfono: 7775394909
+          </li>
+        </ul>
+      </div>
+
+      <form action="#" method="post">
+        <div class="campo-icono">
+          <img src="img/incono-perfil.jpg" alt="Icono usuario" class="icono-form">
+          <input type="text" id="nombre" name="nombre" placeholder="Nombre">
+        </div>
+
+        <div class="campo-icono">
+          <img src="img/arroba.png" alt="Icono correo" class="icono-form">
+          <input type="email" id="correo" name="correo" placeholder="Correo electrónico">
+        </div>
+
+        <div class="campo-icono alineado-arriba">
+          <label for="comentarios">Comentarios</label>
+          <textarea id="comentarios" name="comentarios" rows="5"></textarea>
+        </div>
+
+        <button type="submit" class="boton-primario">Enviar</button>
+      </form>
+    </section>
+  </main>
+  <footer class="pie">
+    <div class="redes">
+      <a href="https://www.facebook.com" target="_blank" rel="noopener"><img src="img/facebook.png" alt="Facebook" class="icono"></a>
+      <a href="https://www.instagram.com" target="_blank" rel="noopener"><img src="img/instagram.png" alt="Instagram" class="icono"></a>
+    </div>
+    <a class="chat" href="contacto.html"><img src="img/mensaje.png" alt="Enviar un mensaje" class="icono"></a>
+  </footer>
+</body>
+</html>
